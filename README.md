@@ -1,106 +1,285 @@
 <div align="center">
-  <img src="./assets/hero.svg" alt="Mohammed Askee - Full-Stack Developer and Computer Science Graduate" />
 
-  <p>
-    I build responsive, user-centered web applications and practical intelligent systems - from polished interfaces and REST APIs to data-driven tools.
-  </p>
+# Mohammed Askee
 
-  <p>
-    <a href="mailto:askeeofficial2001@gmail.com">Email me</a>
-    &nbsp;&nbsp;•&nbsp;&nbsp;
-    <a href="https://www.linkedin.com/in/mohammedaskee">LinkedIn</a>
-    &nbsp;&nbsp;•&nbsp;&nbsp;
-    <a href="https://mohammedaskee2.wordpress.com">Portfolio</a>
-    &nbsp;&nbsp;•&nbsp;&nbsp;
-    <a href="https://github.com/MohammedAskee">GitHub</a>
-  </p>
+### Full-Stack Developer · UI/UX Designer · Computer Science Graduate
+
+I build **responsive web applications, thoughtful product interfaces, and practical AI-powered systems** — turning ideas into useful software with clean engineering and a strong focus on the user experience.
+
+<br>
+
+<a href="mailto:askeeofficial2001@gmail.com">
+  <img src="https://img.shields.io/badge/Email-08CB00?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Mohammed Askee">
+</a>
+<a href="https://www.linkedin.com/in/mohammedaskee">
+  <img src="https://img.shields.io/badge/LinkedIn-08CB00?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile">
+</a>
+<a href="https://mohammedaskee2.wordpress.com">
+  <img src="https://img.shields.io/badge/Portfolio-08CB00?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
+</a>
+<a href="https://github.com/MohammedAskee">
+  <img src="https://img.shields.io/badge/GitHub-08CB00?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile">
+</a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=MohammedAskee&label=Profile%20views&color=1F7D53&style=flat" alt="Profile views">
+&nbsp;
+<img src="https://img.shields.io/github/followers/MohammedAskee?label=Followers&style=flat&color=1F7D53" alt="GitHub followers">
+
 </div>
 
-## Building software with clarity and purpose
+---
 
-I'm a Computer Science graduate with hands-on experience across front-end development, UI/UX, machine learning, and network engineering. I care about the full path from an idea to a useful, well-designed product, and I am open to full-stack, front-end, and software development opportunities.
+## About me
 
-## What I work on
+I'm a **Computer Science graduate** with hands-on experience across **front-end development, full-stack engineering, UI/UX design, machine learning, and network engineering**.
 
-- **Web applications** - responsive interfaces, REST APIs, and deployment-ready web experiences.
-- **Product interfaces** - wireframes, prototypes, and thoughtful UI/UX decisions in Figma.
-- **Intelligent systems** - practical machine learning and AI-assisted applications built around clear user needs.
+I enjoy working across the product lifecycle — from understanding a problem and designing the interface to building the application, connecting APIs, and refining the final experience.
+
+**Currently focused on:** strengthening full-stack development, building polished product experiences, and exploring practical AI-powered applications.
+
+---
+
+## What I build
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Web & Full-Stack
+
+Responsive interfaces, REST APIs, authentication, databases, and deployment-ready applications.
+
+</td>
+<td width="50%" valign="top">
+
+### UI/UX & Product Design
+
+Wireframes, prototypes, responsive layouts, design systems, and user-centered product decisions.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### AI & Machine Learning
+
+Practical ML pipelines, recommendation systems, AI-assisted applications, and workflow automation.
+
+</td>
+<td width="50%" valign="top">
+
+### Systems & Networking
+
+Networking fundamentals, data-center operations, monitoring, and security-oriented engineering.
+
+</td>
+</tr>
+</table>
+
+---
 
 ## Featured work
 
-### [AgriSmartPredict](https://github.com/MohammedAskee/AgriSmartPredict)
+### 🌱 [AgriSmartPredict](https://github.com/MohammedAskee/AgriSmartPredict)
 
-<img src="./assets/agrismartpredict.svg" alt="AgriSmartPredict visual showing agricultural data flowing into a crop recommendation" />
+**Machine-learning crop recommendation system**
 
-**Machine learning crop recommendation system**
+Recommends suitable crops using **soil nutrients, rainfall, temperature, and humidity**. The evaluated Random Forest model achieved approximately **92% prediction accuracy**.
 
-Recommends suitable crops from soil nutrients, rainfall, temperature, and humidity using a Random Forest model. The evaluated model achieved **92% prediction accuracy**.
+`Python` `scikit-learn` `pandas` `NumPy` `Random Forest`
 
-`Python` · `scikit-learn` · `pandas` · `NumPy` · `Random Forest`
+**[View repository →](https://github.com/MohammedAskee/AgriSmartPredict)**
 
-### [AthletiQ](https://github.com/MohammedAskee/AthletiQ-Fitness-Coach)
+---
 
-<img src="./assets/athletiq.svg" alt="AthletiQ visual showing an AI fitness conversation and personalized workout guidance" />
+### 🏃 [AthletiQ — Fitness Coach](https://github.com/MohammedAskee/AthletiQ-Fitness-Coach)
 
-**AI fitness coach**
+**AI-powered conversational fitness experience**
 
-An AI-powered conversational experience for personalized workout guidance, nutrition tips, and feedback. The workflow is composed in Langflow with modular blocks and custom prompts.
+A conversational assistant for personalized workout guidance, nutrition tips, and feedback. The workflow is composed in Langflow using modular blocks and custom prompts.
 
-`Langflow` · `AI workflows` · `Prompt design`
+`Langflow` `AI Workflows` `Prompt Design`
 
-### Lightweight Open-Source SIEM
+**[View repository →](https://github.com/MohammedAskee/AthletiQ-Fitness-Coach)**
 
-<img src="./assets/siem.svg" alt="Lightweight SIEM visual showing endpoint events, anomaly detection, and alerts" />
+---
+
+### 🛡️ Lightweight Open-Source SIEM
 
 **Final-year endpoint security project**
 
-A lightweight threat-detection system combining Wazuh correlation rules with Isolation Forest anomaly detection, supported by dashboards and alert workflows.
+A lightweight threat-detection system combining **Wazuh correlation rules** with **Isolation Forest anomaly detection**, supported by dashboards and alert workflows.
 
-`Wazuh` · `Python` · `Isolation Forest` · `Security monitoring`
+`Wazuh` `Python` `Isolation Forest` `Security Monitoring`
 
-<p align="center">
-  <a href="https://github.com/MohammedAskee?tab=repositories">Explore all repositories</a>
-</p>
+> This project represents my final-year security work and demonstrates my interest in combining conventional detection rules with practical machine learning.
 
-## Experience, in context
-
-My internships have given me practical exposure to front-end development, UI/UX design, machine learning, and data-center networking. Most recently, I developed the AgriSmartPredict ML pipeline at Arch Technologies; earlier work at Codsoft focused on responsive front-end builds and interface design, while a PAF-IAST data-center placement deepened my networking and operational perspective.
+---
 
 ## Technology stack
 
-<p align="center">
-  <img src="./assets/tech-stack.svg" alt="Technology stack: JavaScript, Python, HTML, CSS, SQL, React, Tailwind CSS, Bootstrap, Figma, Flask, Firebase, MySQL, MongoDB, Git, GitHub, Postman, Vercel, Langflow, and VS Code" />
+<div align="center">
+
+### Languages
+
+<p>
+  <img src="https://skillicons.dev/icons?i=js,python,html,css" alt="JavaScript, Python, HTML and CSS">
 </p>
 
-<p align="center"><sub>JavaScript · Python · HTML5 · CSS3 · SQL &nbsp; | &nbsp; React · Tailwind · Bootstrap · Figma &nbsp; | &nbsp; Flask · Firebase · MySQL · MongoDB &nbsp; | &nbsp; Git · GitHub · Postman · Vercel · Langflow · VS Code</sub></p>
+<p>
+  <img src="https://img.shields.io/badge/SQL-1F7D53?style=flat-square&logo=mysql&logoColor=white" alt="SQL">
+</p>
+
+### Frontend & Design
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,bootstrap,figma" alt="React, Vite, Tailwind CSS, Bootstrap and Figma">
+</p>
+
+### Backend, Databases & AI
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,flask,firebase,mongodb,mysql" alt="Node.js, Express, Flask, Firebase, MongoDB and MySQL">
+</p>
+
+<p>
+  <img src="https://skillicons.dev/icons?i=sklearn" alt="scikit-learn">
+</p>
+
+### Tools & Platforms
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,postman,vscode,vercel" alt="Git, GitHub, Postman, Visual Studio Code and Vercel">
+</p>
+
+<p>
+  <code>Langflow</code>
+  ·
+  <code>REST APIs</code>
+  ·
+  <code>UI/UX</code>
+  ·
+  <code>Machine Learning</code>
+</p>
+
+</div>
+
+---
+
+## Experience
+
+### Arch Technologies
+**Machine Learning / Software Development Internship**
+
+Built and evaluated the **AgriSmartPredict** machine-learning pipeline, working through data preparation, feature handling, model training, evaluation, and application-oriented output.
+
+### Codsoft
+**Front-End Development / UI/UX Internship**
+
+Worked on responsive front-end interfaces and practical UI/UX implementation, translating design decisions into usable web experiences.
+
+### PAF-IAST Data Center
+**Networking / Operations Internship**
+
+Gained practical exposure to data-center infrastructure, networking operations, monitoring, and the operational side of maintaining technical systems.
+
+---
+
+## GitHub at a glance
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./images/userstats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./images/userstats-light.svg">
+  <img src="./images/userstats-light.svg" alt="Mohammed Askee GitHub statistics" width="760">
+</picture>
+
+</div>
+
+<p align="center">
+  <sub>Automatically generated from GitHub activity and updated by GitHub Actions.</sub>
+</p>
+
+---
+
+## Contribution activity
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://ghchart.rshah.org/08CB00/MohammedAskee">
+  <source media="(prefers-color-scheme: light)" srcset="https://ghchart.rshah.org/1F7D53/MohammedAskee">
+  <img src="https://ghchart.rshah.org/1F7D53/MohammedAskee" alt="Mohammed Askee GitHub contribution calendar" width="760">
+</picture>
+
+</div>
+
+<p align="center">
+  <a href="https://github.com/MohammedAskee?tab=repositories">
+    Explore my repositories →
+  </a>
+</p>
+
+---
 
 ## Currently building
 
-> **Now working on:** _[Project name] - [one-sentence description of the problem you are solving]._  
-> **Next up:** _[A project, skill, or feature you plan to explore next]._
+> **Now:** _Replace this line with the project you're actively building and the problem it solves._
+>
+> **Next:** _Replace this line with the skill, technology, or product idea you're planning to explore._
 
-## Current focus
+---
 
-I am strengthening my full-stack foundations, building more polished product experiences, and exploring practical AI-powered applications. I am especially interested in work where thoughtful interfaces, maintainable engineering, and real-world problem solving meet.
-
-## GitHub activity
+## My approach
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MohammedAskee/MohammedAskee/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohammedAskee/MohammedAskee/output/github-contribution-grid-snake.svg" />
-    <img width="100%" src="https://raw.githubusercontent.com/MohammedAskee/MohammedAskee/output/github-contribution-grid-snake.svg" alt="Animated snake tracing Mohammed Askee's GitHub contributions" />
-  </picture>
+
+**Understand the problem**
+
+↓  
+
+**Design the experience**
+
+↓
+
+**Build the system**
+
+↓
+
+**Test & refine**
+
+↓
+
+**Ship something useful**
+
 </div>
 
-The contribution animation is rebuilt daily from public GitHub activity. You can always view the live contribution graph and repositories directly on [my GitHub profile](https://github.com/MohammedAskee).
+I care about the connection between **good engineering and good product design**.
+
+The goal is not simply to make software work — it is to make software that people can understand, use, and trust.
+
+---
 
 ## Let's build something useful
 
-If you are hiring, collaborating, or working on a product that could benefit from a thoughtful developer perspective, I would be glad to connect.
+If you're hiring, collaborating, or working on a product that could benefit from a developer who enjoys both **engineering and product thinking**, I'd be glad to connect.
 
-<p align="center">
-  <a href="mailto:askeeofficial2001@gmail.com">Start a conversation</a>
-  &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/mohammedaskee">Connect on LinkedIn</a>
-</p>
+<div align="center">
+
+<a href="mailto:askeeofficial2001@gmail.com">
+  <img src="https://img.shields.io/badge/Start%20a%20conversation-08CB00?style=for-the-badge&logo=gmail&logoColor=white" alt="Start a conversation by email">
+</a>
+
+<a href="https://www.linkedin.com/in/mohammedaskee">
+  <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-1F7D53?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn">
+</a>
+
+<br><br>
+
+<sub>Useful software should feel as good as it works.</sub>
+
+</div>
