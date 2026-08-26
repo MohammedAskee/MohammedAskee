@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Lightweight Open-Source SIEM</title><desc id="desc">Endpoint events moving through anomaly detection into an alert dashboard.</desc>
+  <rect width="1200" height="360" rx="28" fill="#101510"/>
+  <rect x="30" y="30" width="1140" height="300" rx="20" fill="none" stroke="#08CB00" stroke-opacity=".55" stroke-width="2"/>
+  <text x="82" y="116" fill="#08CB00" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="4">LIGHTWEIGHT OPEN-SOURCE SIEM</text>
+  <text x="82" y="166" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="38" font-weight="700">Detect. Correlate. Respond.</text>
+  <text x="82" y="212" fill="#B7C9BA" font-family="Arial, sans-serif" font-size="23">Endpoint events  →  Anomaly detection  →  Alert workflows</text>
+  <rect x="82" y="252" width="218" height="44" rx="22" fill="#1F7D53"/>
+  <text x="110" y="282" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="20" font-weight="700">SECURITY MONITORING</text>
+  <path d="M971 75l100 36v73c0 64-45 103-100 123-55-20-100-59-100-123v-73l100-36Z" fill="#08CB00"/>
+  <path d="m934 184 24 24 53-61" fill="none" stroke="#101510" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
