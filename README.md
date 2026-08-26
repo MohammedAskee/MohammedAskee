@@ -1,9 +1,5 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;height=210&amp;text=Mohammed%20Askee&amp;fontSize=52&amp;fontAlignY=39&amp;desc=Full-Stack%20Developer%20%7C%20Computer%20Science%20Graduate&amp;descAlignY=61&amp;descSize=18&amp;color=0:101510,100:08CB00&amp;fontColor=FFFFFF&amp;animation=fadeIn" />
-    <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&amp;height=210&amp;text=Mohammed%20Askee&amp;fontSize=52&amp;fontAlignY=39&amp;desc=Full-Stack%20Developer%20%7C%20Computer%20Science%20Graduate&amp;descAlignY=61&amp;descSize=18&amp;color=0:EAF5ED,100:1F7D53&amp;fontColor=173A28&amp;animation=fadeIn" />
-    <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&amp;height=210&amp;text=Mohammed%20Askee&amp;fontSize=52&amp;fontAlignY=39&amp;desc=Full-Stack%20Developer%20%7C%20Computer%20Science%20Graduate&amp;descAlignY=61&amp;descSize=18&amp;color=0:EAF5ED,100:1F7D53&amp;fontColor=173A28&amp;animation=fadeIn" alt="Mohammed Askee - Full-Stack Developer and Computer Science Graduate" />
-  </picture>
+  <img src="./assets/hero.svg" alt="Mohammed Askee - Full-Stack Developer and Computer Science Graduate" />
 
   <p>
     I build responsive, user-centered web applications and practical intelligent systems - from polished interfaces and REST APIs to data-driven tools.
@@ -72,17 +68,16 @@ My internships have given me practical exposure to front-end development, UI/UX 
 
 ## Technology stack
 
-**Languages**  
-JavaScript (ES6+), Python, HTML5, CSS3, SQL
+<p align="center">
+  <img src="./assets/tech-stack.svg" alt="Technology stack: JavaScript, Python, HTML, CSS, SQL, React, Tailwind CSS, Bootstrap, Figma, Flask, Firebase, MySQL, MongoDB, Git, GitHub, Postman, Vercel, Langflow, and VS Code" />
+</p>
 
-**Frontend & product**  
-React, Tailwind CSS, Bootstrap, responsive design, Figma
+<p align="center"><sub>JavaScript · Python · HTML5 · CSS3 · SQL &nbsp; | &nbsp; React · Tailwind · Bootstrap · Figma &nbsp; | &nbsp; Flask · Firebase · MySQL · MongoDB &nbsp; | &nbsp; Git · GitHub · Postman · Vercel · Langflow · VS Code</sub></p>
 
-**Backend & data**  
-Flask, REST APIs, Firebase, MySQL, MongoDB Atlas, SQL Server
+## Currently building
 
-**Tools & practices**  
-Git/GitHub, Postman, Vercel, Langflow, VS Code, OOP, SDLC, Agile, debugging
+> **Now working on:** _[Project name] - [one-sentence description of the problem you are solving]._  
+> **Next up:** _[A project, skill, or feature you plan to explore next]._
 
 ## Current focus
 
