@@ -1,0 +1,58 @@
+name: Update Profile Statistics
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    name: Generate GitHub Statistics
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate dark statistics
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: images/userstats-dark.svg
+          colors: dark-dimmed
+          custom-title: Mohammed Askee · GitHub Statistics
+          max-languages: 8
+          animated-language-chart: true
+          language-animation-speed: 8
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate light statistics
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: images/userstats-light.svg
+          colors: light
+          custom-title: Mohammed Askee · GitHub Statistics
+          max-languages: 8
+          animated-language-chart: true
+          language-animation-speed: 8
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated statistics
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add images/userstats-dark.svg
+          git add images/userstats-light.svg
+
+          if git diff --cached --quiet; then
+            echo "No statistics changes to commit."
+          else
+            git commit -m "chore: update profile statistics"
+            git push
+          fi
