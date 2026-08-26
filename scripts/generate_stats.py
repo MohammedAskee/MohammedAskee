@@ -1,5 +1,5 @@
 import os
-from datetime import date, datetime, timedelta
+from datetime import date, timedelta
 from pathlib import Path
 
 import requests
@@ -11,19 +11,19 @@ TOKEN = os.environ["GITHUB_TOKEN"]
 
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = ROOT / "assets" / "github"
+
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 
 THEMES = {
     "light": {
-        "background": "#F7FAF8",
+        "background": "#F5F8F6",
         "surface": "#FFFFFF",
         "border": "#DCE7E1",
         "text": "#17221C",
-        "muted": "#5B6B62",
+        "muted": "#66756D",
         "accent": "#1F7D53",
-        "accent_soft": "#E8F3ED",
-        "ring_bg": "#DDE8E1",
+        "ring_bg": "#DCE8E1",
     },
     "dark": {
         "background": "#0B1110",
@@ -32,13 +32,12 @@ THEMES = {
         "text": "#E8F1EC",
         "muted": "#9BAEA4",
         "accent": "#08CB00",
-        "accent_soft": "#17321F",
         "ring_bg": "#26352E",
     },
 }
 
 
-def github_query():
+def get_calendar():
     query = """
     query($login: String!) {
       user(login: $login) {
@@ -84,15 +83,17 @@ def github_query():
     ]
 
 
-def get_days(calendar):
+def extract_days(calendar):
     days = []
 
     for week in calendar["weeks"]:
-        for item in week["contributionDays"]:
+        for contribution in week["contributionDays"]:
             days.append(
                 {
-                    "date": date.fromisoformat(item["date"]),
-                    "count": item["contributionCount"],
+                    "date": date.fromisoformat(
+                        contribution["date"]
+                    ),
+                    "count": contribution["contributionCount"],
                 }
             )
 
@@ -110,10 +111,10 @@ def calculate_streaks(days):
         for item in days
     }
 
-    today = max(counts)
+    latest_date = max(counts)
 
     current = 0
-    cursor = today
+    cursor = latest_date
 
     while counts.get(cursor, 0) > 0:
         current += 1
@@ -132,49 +133,41 @@ def calculate_streaks(days):
     return current, longest
 
 
-def load_font(size):
-    candidates = [
-        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
-        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
-    ]
-
-    path = candidates[1 if size >= 24 else 0]
+def font(size, bold=False):
+    if bold:
+        path = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+    else:
+        path = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 
     return ImageFont.truetype(path, size)
 
 
-def centered(draw, box, text, font, fill):
-    bbox = draw.textbbox((0, 0), text, font=font)
+def center_text(draw, x, y, text, text_font, fill):
+    box = draw.textbbox(
+        (0, 0),
+        text,
+        font=text_font,
+    )
 
-    width = bbox[2] - bbox[0]
-    height = bbox[3] - bbox[1]
-
-    x = box[0] + ((box[2] - box[0]) - width) / 2
-    y = box[1] + ((box[3] - box[1]) - height) / 2
+    width = box[2] - box[0]
+    height = box[3] - box[1]
 
     draw.text(
-        (x, y),
+        (
+            x - width / 2,
+            y - height / 2,
+        ),
         text,
-        font=font,
+        font=text_font,
         fill=fill,
     )
 
 
-def rounded(draw, box, radius, fill, outline=None, width=1):
-    draw.rounded_rectangle(
-        box,
-        radius=radius,
-        fill=fill,
-        outline=outline,
-        width=width,
-    )
-
-
-def draw_card(theme, total, current, longest):
+def create_stats_card(theme, total, current, longest):
     colors = THEMES[theme]
 
     width = 900
-    height = 360
+    height = 390
 
     image = Image.new(
         "RGB",
@@ -184,110 +177,98 @@ def draw_card(theme, total, current, longest):
 
     draw = ImageDraw.Draw(image)
 
-    rounded(
-        draw,
+    draw.rounded_rectangle(
         (2, 2, width - 2, height - 2),
-        24,
-        colors["surface"],
-        colors["border"],
-        2,
+        radius=24,
+        fill=colors["surface"],
+        outline=colors["border"],
+        width=2,
     )
 
     draw.text(
         (40, 28),
         "GitHub Stats",
-        font=load_font(28),
+        font=font(28, bold=True),
         fill=colors["text"],
     )
 
     draw.line(
-        (24, 82, width - 24, 82),
+        (24, 84, width - 24, 84),
         fill=colors["border"],
         width=1,
     )
 
-    values = [
-        ("Total Contributions", total),
-        ("Current Streak", current),
-        ("Longest Streak", longest),
+    columns = [
+        (225, total, "Total Contributions"),
+        (450, current, "Current Streak"),
+        (675, longest, "Longest Streak"),
     ]
 
-    centers = [220, 450, 680]
-
-    for (label, value), center_x in zip(values, centers):
-        centered(
+    for x, value, label in columns:
+        center_text(
             draw,
-            (
-                center_x - 100,
-                115,
-                center_x + 100,
-                175,
-            ),
+            x,
+            145,
             str(value),
-            load_font(40),
+            font(42, bold=True),
             colors["text"],
         )
 
-        centered(
+        center_text(
             draw,
-            (
-                center_x - 110,
-                180,
-                center_x + 110,
-                215,
-            ),
+            x,
+            198,
             label,
-            load_font(15),
+            font(15),
             colors["accent"],
         )
 
-    # Streak ring
-    ring_center = (450, 275)
+    ring_x = 450
+    ring_y = 292
     radius = 43
 
     draw.ellipse(
         (
-            ring_center[0] - radius,
-            ring_center[1] - radius,
-            ring_center[0] + radius,
-            ring_center[1] + radius,
+            ring_x - radius,
+            ring_y - radius,
+            ring_x + radius,
+            ring_y + radius,
         ),
         outline=colors["ring_bg"],
-        width=10,
+        width=9,
     )
 
     if current > 0:
+        percentage = current / max(longest, current, 1)
+
         draw.arc(
             (
-                ring_center[0] - radius,
-                ring_center[1] - radius,
-                ring_center[0] + radius,
-                ring_center[1] + radius,
+                ring_x - radius,
+                ring_y - radius,
+                ring_x + radius,
+                ring_y + radius,
             ),
             start=-90,
-            end=-90 + min(current / max(longest, current, 1), 1) * 360,
+            end=-90 + percentage * 360,
             fill=colors["accent"],
-            width=10,
+            width=9,
         )
 
-    centered(
+    center_text(
         draw,
-        (
-            ring_center[0] - 35,
-            ring_center[1] - 20,
-            ring_center[0] + 35,
-            ring_center[1] + 20,
-        ),
+        ring_x,
+        ring_y,
         str(current),
-        load_font(24),
+        font(23, bold=True),
         colors["text"],
     )
 
-    centered(
+    center_text(
         draw,
-        (300, 325, 600, 350),
+        width / 2,
+        365,
         f"@{USERNAME}",
-        load_font(13),
+        font(13),
         colors["muted"],
     )
 
@@ -299,13 +280,12 @@ def draw_card(theme, total, current, longest):
         optimize=True,
     )
 
-    print(f"Generated {output}")
+    print(f"Generated: {output}")
 
 
 def main():
-    calendar = github_query()
-
-    days = get_days(calendar)
+    calendar = get_calendar()
+    days = extract_days(calendar)
 
     total = calendar["totalContributions"]
 
@@ -315,14 +295,14 @@ def main():
     print(f"Current streak: {current}")
     print(f"Longest streak: {longest}")
 
-    draw_card(
+    create_stats_card(
         "light",
         total,
         current,
         longest,
     )
 
-    draw_card(
+    create_stats_card(
         "dark",
         total,
         current,
