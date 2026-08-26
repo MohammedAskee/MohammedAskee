@@ -836,7 +836,7 @@ I'd be happy to hear from you.
 
 &nbsp;
 
-<a href="https://wa.me/923000000000">
+<a href="https://wa.me/94777413375">
   <img
     src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
     alt="Contact Mohammed Askee on WhatsApp"
