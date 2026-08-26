@@ -11,89 +11,90 @@ from polished interfaces and web applications to practical AI-powered systems.
 
 <br>
 
-<!-- HERO CONTACT BUTTONS -->
+<!-- HERO LINKS -->
 
 <a href="mailto:askeeofficial2001@gmail.com">
-  <img
-    src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
-    alt="Email Mohammed Askee"
-  />
+<img
+  src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
+  alt="Email Mohammed Askee"
+/>
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/mohammedaskee">
-  <img
-    src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-    alt="Mohammed Askee on LinkedIn"
-  />
+<img
+  src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+  alt="Mohammed Askee on LinkedIn"
+/>
 </a>
 &nbsp;
 <a href="https://mohammedaskee2.wordpress.com">
-  <img
-    src="https://img.shields.io/badge/Portfolio-21759B?style=for-the-badge&logo=wordpress&logoColor=white"
-    alt="Mohammed Askee Portfolio"
-  />
+<img
+  src="https://img.shields.io/badge/Portfolio-21759B?style=for-the-badge&logo=wordpress&logoColor=white"
+  alt="Mohammed Askee Portfolio"
+/>
 </a>
 &nbsp;
 <a href="https://github.com/MohammedAskee">
-  <img
-    src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="Mohammed Askee GitHub"
-  />
-</a>
-
-<br><br>
-
 <img
-  src="https://img.shields.io/badge/Open%20to%20Opportunities-1F7D53?style=flat-square"
-  alt="Open to opportunities"
+  src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+  alt="Mohammed Askee GitHub"
 />
+</a>
 
 </div>
 
 ---
 
-## Developer snapshot
+## Developer Snapshot
 
 <table>
 <tr>
 
-<td width="25%" align="center">
+<td width="25%" valign="top" align="center">
 
 ### Web
 
 **Full-Stack Development**
 
-Responsive applications, APIs, databases and modern web experiences.
+<br>
+
+Responsive applications, REST APIs, databases, authentication, and modern web experiences.
 
 </td>
 
-<td width="25%" align="center">
+<td width="25%" valign="top" align="center">
 
 ### Design
 
 **UI/UX & Product Design**
 
-Interfaces, prototypes, interaction design and design systems.
+<br>
+
+Interfaces, prototypes, interaction design, responsive layouts, and design systems.
 
 </td>
 
-<td width="25%" align="center">
+<td width="25%" valign="top" align="center">
 
 ### Intelligence
 
 **AI & Machine Learning**
 
-Practical ML systems and AI-powered applications.
+<br>
+
+Practical ML systems, recommendation engines, AI applications, and intelligent workflows.
 
 </td>
 
-<td width="25%" align="center">
+<td width="25%" valign="top" align="center">
 
 ### Systems
 
 **Networking & Security**
 
-Infrastructure, monitoring and security-oriented engineering.
+<br>
+
+Networking fundamentals, infrastructure, monitoring, and security-oriented engineering.
 
 </td>
 
@@ -102,7 +103,7 @@ Infrastructure, monitoring and security-oriented engineering.
 
 ---
 
-## About me
+## About Me
 
 I'm a **Computer Science graduate** with hands-on experience across **full-stack development, front-end engineering, UI/UX design, machine learning, and networking**.
 
@@ -110,7 +111,7 @@ I enjoy taking a project from an initial idea to something people can actually u
 
 My approach sits at the intersection of **engineering, design, and practical problem solving**.
 
-### What I care about
+### What I Care About
 
 - Building interfaces that are **clear and intuitive**
 - Writing software that is **maintainable and scalable**
@@ -120,7 +121,7 @@ My approach sits at the intersection of **engineering, design, and practical pro
 
 ---
 
-# What I build
+# What I Build
 
 <table>
 <tr>
@@ -129,7 +130,15 @@ My approach sits at the intersection of **engineering, design, and practical pro
 
 ### Web & Full-Stack
 
+<br>
+
 Responsive web applications, REST APIs, authentication, databases, state management, and deployment-ready systems.
+
+<br><br>
+
+**Focus**
+
+`React` `Node.js` `REST APIs` `MongoDB` `MySQL`
 
 </td>
 
@@ -137,7 +146,15 @@ Responsive web applications, REST APIs, authentication, databases, state managem
 
 ### UI/UX & Product Design
 
+<br>
+
 Wireframes, prototypes, responsive interfaces, interaction design, and user-centered product decisions.
+
+<br><br>
+
+**Focus**
+
+`Figma` `UI Systems` `UX` `Prototyping`
 
 </td>
 
@@ -149,7 +166,15 @@ Wireframes, prototypes, responsive interfaces, interaction design, and user-cent
 
 ### AI & Machine Learning
 
+<br>
+
 Recommendation systems, ML pipelines, AI-assisted applications, prompt-based workflows, and applied experimentation.
+
+<br><br>
+
+**Focus**
+
+`Python` `scikit-learn` `Random Forest` `AI Workflows`
 
 </td>
 
@@ -157,7 +182,15 @@ Recommendation systems, ML pipelines, AI-assisted applications, prompt-based wor
 
 ### Systems & Networking
 
-Networking fundamentals, data-center operations, monitoring, and security-oriented engineering.
+<br>
+
+Networking fundamentals, data-center operations, monitoring, infrastructure, and security-oriented engineering.
+
+<br><br>
+
+**Focus**
+
+`Networking` `Monitoring` `Infrastructure` `Security`
 
 </td>
 
@@ -166,7 +199,47 @@ Networking fundamentals, data-center operations, monitoring, and security-orient
 
 ---
 
-# Featured work
+# Current Projects
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### Building Now
+
+**Developer Project Planning & Documentation Platform**
+
+A practical application concept for turning structured project requirements, planning information, and development decisions into organized, printable project documentation.
+
+**Focus**
+
+`Product Design` · `React` · `PWA` · `Document Generation`
+
+</td>
+
+<td width="50%" valign="top">
+
+### Next Up
+
+**Full-Stack Product Development**
+
+Expanding my full-stack foundations by building complete applications with modern frontend architecture, backend APIs, authentication, databases, and deployment workflows.
+
+**Focus**
+
+`React` · `Node.js` · `REST APIs` · `MongoDB`
+
+</td>
+
+</tr>
+</table>
+
+> **Note:** This section is intentionally easy to update as projects change. Replace the two project descriptions above with the exact project you are actively working on and the next project you intend to build.
+
+---
+
+# Featured Work
 
 <table>
 <tr>
@@ -194,23 +267,21 @@ A practical machine-learning system that recommends suitable crops using environ
 <br>
 
 <a href="https://github.com/MohammedAskee/AgriSmartPredict">
-  <img
-    src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="View AgriSmartPredict repository"
-  />
+<img
+  src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white"
+  alt="View AgriSmartPredict repository"
+/>
 </a>
 
 </td>
 
-<td width="35%" align="center" valign="middle">
+<td width="35%" valign="middle" align="center">
 
 <img
   src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
   alt="Python"
 />
-
-<br><br>
-
+&nbsp;
 <img
   src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"
   alt="scikit-learn"
@@ -218,17 +289,19 @@ A practical machine-learning system that recommends suitable crops using environ
 
 <br><br>
 
+<a href="https://github.com/MohammedAskee/AgriSmartPredict">
 <img
-  src="https://img.shields.io/github/stars/MohammedAskee/AgriSmartPredict?style=flat-square&label=Stars&color=1F7D53"
+  src="https://img.shields.io/github/stars/MohammedAskee/AgriSmartPredict?style=flat-square&label=Stars"
   alt="AgriSmartPredict GitHub stars"
 />
-
-<br>
-
+</a>
+&nbsp;
+<a href="https://github.com/MohammedAskee/AgriSmartPredict">
 <img
-  src="https://img.shields.io/github/last-commit/MohammedAskee/AgriSmartPredict?style=flat-square&label=Last%20commit&color=1F7D53"
+  src="https://img.shields.io/github/last-commit/MohammedAskee/AgriSmartPredict?style=flat-square&label=Last%20commit"
   alt="AgriSmartPredict last commit"
 />
+</a>
 
 </td>
 
@@ -240,7 +313,7 @@ A practical machine-learning system that recommends suitable crops using environ
 <table>
 <tr>
 
-<td width="35%" align="center" valign="middle">
+<td width="35%" valign="middle" align="center">
 
 <img
   src="https://img.shields.io/badge/AI%20Application-6B46C1?style=for-the-badge"
@@ -249,17 +322,19 @@ A practical machine-learning system that recommends suitable crops using environ
 
 <br><br>
 
+<a href="https://github.com/MohammedAskee/AthletiQ-Fitness-Coach">
 <img
-  src="https://img.shields.io/github/stars/MohammedAskee/AthletiQ-Fitness-Coach?style=flat-square&label=Stars&color=1F7D53"
+  src="https://img.shields.io/github/stars/MohammedAskee/AthletiQ-Fitness-Coach?style=flat-square&label=Stars"
   alt="AthletiQ GitHub stars"
 />
-
-<br>
-
+</a>
+&nbsp;
+<a href="https://github.com/MohammedAskee/AthletiQ-Fitness-Coach">
 <img
-  src="https://img.shields.io/github/last-commit/MohammedAskee/AthletiQ-Fitness-Coach?style=flat-square&label=Last%20commit&color=1F7D53"
+  src="https://img.shields.io/github/last-commit/MohammedAskee/AthletiQ-Fitness-Coach?style=flat-square&label=Last%20commit"
   alt="AthletiQ last commit"
 />
+</a>
 
 </td>
 
@@ -280,10 +355,10 @@ The workflow is composed in **Langflow** using modular blocks and custom prompts
 <br>
 
 <a href="https://github.com/MohammedAskee/AthletiQ-Fitness-Coach">
-  <img
-    src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="View AthletiQ repository"
-  />
+<img
+  src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white"
+  alt="View AthletiQ repository"
+/>
 </a>
 
 </td>
@@ -312,25 +387,21 @@ This project represents my final-year work combining conventional detection tech
 
 </td>
 
-<td width="35%" align="center" valign="middle">
+<td width="35%" valign="middle" align="center">
 
 <img
   src="https://img.shields.io/badge/Wazuh-4A90E2?style=for-the-badge"
   alt="Wazuh"
 />
-
-<br><br>
-
+&nbsp;
 <img
   src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
   alt="Python"
 />
-
-<br><br>
-
+&nbsp;
 <img
-  src="https://img.shields.io/badge/Security%20Monitoring-1F7D53?style=for-the-badge"
-  alt="Security monitoring"
+  src="https://img.shields.io/badge/Security%20Monitoring-4B5563?style=for-the-badge"
+  alt="Security Monitoring"
 />
 
 </td>
@@ -340,7 +411,7 @@ This project represents my final-year work combining conventional detection tech
 
 ---
 
-# Technology stack
+# Technology Stack
 
 <div align="center">
 
@@ -348,30 +419,15 @@ This project represents my final-year work combining conventional detection tech
 
 <br>
 
-<img
-  src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000"
-  alt="JavaScript"
-/>
-
-<img
-  src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"
-  alt="Python"
-/>
-
-<img
-  src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-  alt="HTML5"
-/>
-
-<img
-  src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
-  alt="CSS3"
-/>
-
-<img
-  src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"
-  alt="SQL"
-/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000000" alt="JavaScript">
+&nbsp;
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+&nbsp;
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+&nbsp;
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+&nbsp;
+<img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL">
 
 <br><br>
 
@@ -379,30 +435,15 @@ This project represents my final-year work combining conventional detection tech
 
 <br>
 
-<img
-  src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
-  alt="React"
-/>
-
-<img
-  src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"
-  alt="Vite"
-/>
-
-<img
-  src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"
-  alt="Tailwind CSS"
-/>
-
-<img
-  src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"
-  alt="Bootstrap"
-/>
-
-<img
-  src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"
-  alt="Figma"
-/>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+&nbsp;
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+&nbsp;
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+&nbsp;
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+&nbsp;
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma">
 
 <br><br>
 
@@ -410,35 +451,17 @@ This project represents my final-year work combining conventional detection tech
 
 <br>
 
-<img
-  src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"
-  alt="Node.js"
-/>
-
-<img
-  src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"
-  alt="Express.js"
-/>
-
-<img
-  src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"
-  alt="Flask"
-/>
-
-<img
-  src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=000000"
-  alt="Firebase"
-/>
-
-<img
-  src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"
-  alt="MongoDB"
-/>
-
-<img
-  src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"
-  alt="MySQL"
-/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+&nbsp;
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
+&nbsp;
+<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask">
+&nbsp;
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=000000" alt="Firebase">
+&nbsp;
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+&nbsp;
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
 
 <br><br>
 
@@ -446,30 +469,15 @@ This project represents my final-year work combining conventional detection tech
 
 <br>
 
-<img
-  src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"
-  alt="Git"
-/>
-
-<img
-  src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-  alt="GitHub"
-/>
-
-<img
-  src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"
-  alt="Postman"
-/>
-
-<img
-  src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"
-  alt="Visual Studio Code"
-/>
-
-<img
-  src="https://img.shields.io/badge/Langflow-1C3C3C?style=for-the-badge"
-  alt="Langflow"
-/>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+&nbsp;
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+&nbsp;
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman">
+&nbsp;
+<img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Visual Studio Code">
+&nbsp;
+<img src="https://img.shields.io/badge/Langflow-1C3C3C?style=for-the-badge" alt="Langflow">
 
 </div>
 
@@ -478,137 +486,121 @@ This project represents my final-year work combining conventional detection tech
 # Experience
 
 ### Arch Technologies
+
 **Machine Learning / Software Development Internship**
 
 Developed and evaluated the **AgriSmartPredict** machine-learning pipeline, working through data preparation, feature handling, model training, evaluation, and application-oriented output.
 
 ### Codsoft
+
 **Front-End Development / UI/UX Internship**
 
 Worked on responsive front-end interfaces and practical UI/UX implementation, translating design decisions into usable web experiences.
 
 ### PAF-IAST Data Center
+
 **Networking / Operations Internship**
 
 Gained practical exposure to data-center infrastructure, networking operations, monitoring, and the operational side of maintaining technical systems.
 
 ---
 
-# Currently exploring
+# Currently Exploring
 
 <table>
 <tr>
 
-<td width="33%" align="center">
+<td width="33%" valign="top" align="center">
 
 ### Full-Stack
 
-React · Node.js · REST APIs · Databases
+<br>
+
+Building complete applications with modern frontend architecture, backend APIs, authentication, databases, and deployment.
+
+<br><br>
+
+`React` · `Node.js` · `REST`
 
 </td>
 
-<td width="33%" align="center">
+<td width="33%" valign="top" align="center">
 
 ### AI
 
-AI applications · ML systems · AI workflows
+<br>
+
+Exploring practical AI applications, machine-learning systems, intelligent workflows, and useful AI-assisted products.
+
+<br><br>
+
+`Python` · `ML` · `AI`
 
 </td>
 
-<td width="33%" align="center">
+<td width="33%" valign="top" align="center">
 
 ### Product
 
-UI systems · UX · Design engineering
+<br>
+
+Improving the connection between UI/UX decisions, design systems, frontend implementation, and product thinking.
+
+<br><br>
+
+`Figma` · `UI` · `UX`
 
 </td>
 
 </tr>
 </table>
 
-<div align="center">
-
-<img
-  src="https://img.shields.io/badge/Building-1F7D53?style=flat-square"
-  alt="Currently building"
-/>
-
-<img
-  src="https://img.shields.io/badge/Learning-1F7D53?style=flat-square"
-  alt="Currently learning"
-/>
-
-<img
-  src="https://img.shields.io/badge/Exploring-1F7D53?style=flat-square"
-  alt="Currently exploring"
-/>
-
-</div>
-
 ---
 
-# How I approach a project
+# From Idea to Product
 
 <div align="center">
 
 <table>
 <tr>
 
-<td align="center">
+<td align="center" width="20%">
 
-### 01
+### Discover
 
-**Understand**
-
-Problem & users
+Understand the problem, users, requirements, and constraints.
 
 </td>
 
-<td>→</td>
+<td align="center" width="20%">
 
-<td align="center">
+### Design
 
-### 02
-
-**Design**
-
-Structure & experience
+Plan the experience, architecture, interface, and technical direction.
 
 </td>
 
-<td>→</td>
+<td align="center" width="20%">
 
-<td align="center">
+### Develop
 
-### 03
-
-**Build**
-
-System & interface
+Turn the plan into a functional, maintainable product.
 
 </td>
 
-<td>→</td>
+<td align="center" width="20%">
 
-<td align="center">
+### Validate
 
-### 04
-
-**Refine**
-
-Test & improve
+Test the system, evaluate the experience, and identify what needs improvement.
 
 </td>
 
-<td>→</td>
+<td align="center" width="20%">
 
-<td align="center">
+### Deliver
 
-### 05
-
-**Ship**
-
-Useful product
+Refine, document, and ship something useful.
 
 </td>
 
@@ -617,39 +609,13 @@ Useful product
 
 </div>
 
-I care about the relationship between **engineering quality and product quality**.
-
-Good software should not only work.
-
-It should be understandable, maintainable, accessible, and useful to the people who rely on it.
+> I believe good software is more than functional code — it should solve the right problem, be easy to use, and remain maintainable as it grows.
 
 ---
 
-# GitHub activity
+# GitHub Activity
 
 <div align="center">
-
-<!-- CUSTOM GITHUB STATS -->
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="./assets/github/stats-dark.png"
-  >
-
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="./assets/github/stats-light.png"
-  >
-
-  <img
-    src="./assets/github/stats-light.png"
-    width="760"
-    alt="Mohammed Askee GitHub statistics"
-  >
-</picture>
-
-<br><br>
 
 <!-- CONTRIBUTION SNAKE -->
 
@@ -657,63 +623,61 @@ It should be understandable, maintainable, accessible, and useful to the people 
   <source
     media="(prefers-color-scheme: dark)"
     srcset="./assets/github/snake-dark.svg"
-  >
-
+  />
   <source
     media="(prefers-color-scheme: light)"
     srcset="./assets/github/snake-light.svg"
-  >
-
+  />
   <img
     src="./assets/github/snake-light.svg"
     width="900"
     alt="Mohammed Askee GitHub contribution activity"
-  >
+  />
 </picture>
 
 <br><br>
 
 <a href="https://github.com/MohammedAskee?tab=repositories">
-  <img
-    src="https://img.shields.io/badge/Explore%20All%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="Explore all Mohammed Askee GitHub repositories"
-  />
+<img
+  src="https://img.shields.io/badge/Explore%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white"
+  alt="Explore Mohammed Askee repositories"
+/>
 </a>
 
 </div>
 
 ---
 
-# GitHub at a glance
+# GitHub at a Glance
 
 <div align="center">
 
 <a href="https://github.com/MohammedAskee">
-  <img
-    src="https://img.shields.io/github/followers/MohammedAskee?style=for-the-badge&label=Followers&color=0A66C2"
-    alt="Mohammed Askee GitHub followers"
-  />
+<img
+  src="https://img.shields.io/github/followers/MohammedAskee?style=for-the-badge&label=Followers&labelColor=555555&color=0A66C2"
+  alt="Mohammed Askee GitHub followers"
+/>
 </a>
-
+&nbsp;
 <a href="https://github.com/MohammedAskee?tab=repositories">
-  <img
-    src="https://img.shields.io/github/stars/MohammedAskee?affiliations=OWNER&style=for-the-badge&label=Repository%20Stars&color=F5B301"
-    alt="Mohammed Askee repository stars"
-  />
+<img
+  src="https://img.shields.io/github/stars/MohammedAskee?affiliations=OWNER&style=for-the-badge&label=Repository%20Stars&labelColor=555555&color=F5B301"
+  alt="Mohammed Askee repository stars"
+/>
 </a>
-
+&nbsp;
 <a href="https://github.com/MohammedAskee?tab=repositories">
-  <img
-    src="https://img.shields.io/github/repos/MohammedAskee?style=for-the-badge&label=Public%20Repositories&color=1F7D53"
-    alt="Mohammed Askee public repositories"
-  />
+<img
+  src="https://img.shields.io/badge/Public%20Repositories-View%20All-1F7D53?style=for-the-badge&logo=github&logoColor=white"
+  alt="View Mohammed Askee public repositories"
+/>
 </a>
 
 </div>
 
 ---
 
-# A little more about my work
+# A Little More About My Work
 
 <details>
 <summary><strong>Frontend & product development</strong></summary>
@@ -787,7 +751,7 @@ I have practical exposure to networking and data-center environments, including 
 
 ---
 
-# What I'm interested in
+# What I'm Interested In
 
 <div align="center">
 
@@ -807,7 +771,7 @@ I have practical exposure to networking and data-center environments, including 
 
 ---
 
-# Let's build something useful
+# Let's Build Something Useful
 
 <p align="center">
 Whether you're hiring, collaborating, or exploring an idea,
@@ -819,46 +783,38 @@ I'd be happy to hear from you.
 <div align="center">
 
 <a href="mailto:askeeofficial2001@gmail.com">
-  <img
-    src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
-    alt="Email Mohammed Askee"
-  />
+<img
+  src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
+  alt="Email Mohammed Askee"
+/>
 </a>
-
 &nbsp;
-
 <a href="https://www.linkedin.com/in/mohammedaskee">
-  <img
-    src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-    alt="Connect with Mohammed Askee on LinkedIn"
-  />
+<img
+  src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+  alt="Connect with Mohammed Askee on LinkedIn"
+/>
 </a>
-
 &nbsp;
-
 <a href="https://wa.me/94777413375">
-  <img
-    src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
-    alt="Contact Mohammed Askee on WhatsApp"
-  />
+<img
+  src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"
+  alt="Contact Mohammed Askee on WhatsApp"
+/>
 </a>
-
-<br><br>
-
-<a href="https://github.com/MohammedAskee">
-  <img
-    src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="Mohammed Askee GitHub profile"
-  />
-</a>
-
 &nbsp;
-
+<a href="https://github.com/MohammedAskee">
+<img
+  src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
+  alt="Mohammed Askee GitHub profile"
+/>
+</a>
+&nbsp;
 <a href="https://mohammedaskee2.wordpress.com">
-  <img
-    src="https://img.shields.io/badge/Portfolio-21759B?style=for-the-badge&logo=wordpress&logoColor=white"
-    alt="Mohammed Askee Portfolio"
-  />
+<img
+  src="https://img.shields.io/badge/Portfolio-21759B?style=for-the-badge&logo=wordpress&logoColor=white"
+  alt="Mohammed Askee Portfolio"
+/>
 </a>
 
 </div>
