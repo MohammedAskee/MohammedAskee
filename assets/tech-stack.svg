@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Technology stack</title><desc id="desc">A visual grid of technologies used by Mohammed Askee.</desc>
+  <rect width="1200" height="520" rx="28" fill="#101510"/>
+  <g font-family="Arial, sans-serif">
+    <text x="56" y="66" fill="#08CB00" font-size="24" font-weight="700" letter-spacing="3">LANGUAGES</text>
+    <text x="56" y="278" fill="#08CB00" font-size="24" font-weight="700" letter-spacing="3">PRODUCT, DATA &amp; TOOLS</text>
+    <g fill="#1F7D53"><rect x="56" y="92" width="168" height="118" rx="18"/><rect x="246" y="92" width="168" height="118" rx="18"/><rect x="436" y="92" width="168" height="118" rx="18"/><rect x="626" y="92" width="168" height="118" rx="18"/><rect x="816" y="92" width="168" height="118" rx="18"/></g>
+    <g fill="#FFFFFF" font-size="32" font-weight="700" text-anchor="middle"><text x="140" y="150">JS</text><text x="330" y="150">PY</text><text x="520" y="150">HTML</text><text x="710" y="150">CSS</text><text x="900" y="150">SQL</text></g>
+    <g fill="#CFE8D6" font-size="17" text-anchor="middle"><text x="140" y="184">JavaScript</text><text x="330" y="184">Python</text><text x="520" y="184">HTML5</text><text x="710" y="184">CSS3</text><text x="900" y="184">SQL</text></g>
+    <g fill="#173A28"><rect x="56" y="304" width="130" height="126" rx="18"/><rect x="202" y="304" width="130" height="126" rx="18"/><rect x="348" y="304" width="130" height="126" rx="18"/><rect x="494" y="304" width="130" height="126" rx="18"/><rect x="640" y="304" width="130" height="126" rx="18"/><rect x="786" y="304" width="130" height="126" rx="18"/><rect x="932" y="304" width="130" height="126" rx="18"/></g>
+    <g fill="#08CB00" font-size="27" font-weight="700" text-anchor="middle"><text x="121" y="358">REACT</text><text x="267" y="358">FIGMA</text><text x="413" y="358">FLASK</text><text x="559" y="358">FIREBASE</text><text x="705" y="358">MONGO</text><text x="851" y="358">GIT</text><text x="997" y="358">TOOLS</text></g>
+    <g fill="#D9F1DF" font-size="15" text-anchor="middle"><text x="121" y="394">Tailwind · Bootstrap</text><text x="267" y="394">UI/UX</text><text x="413" y="394">REST APIs</text><text x="559" y="394">MySQL</text><text x="705" y="394">SQL Server</text><text x="851" y="394">GitHub</text><text x="997" y="386">Postman · Vercel</text><text x="997" y="408">Langflow · VS Code</text></g>
+  </g>
+</svg>
