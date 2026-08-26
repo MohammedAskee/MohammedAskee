@@ -4,28 +4,32 @@
 
 ### Full-Stack Developer · UI/UX Designer · Computer Science Graduate
 
-I build **responsive web applications, thoughtful product interfaces, and practical AI-powered systems** — turning ideas into useful software with clean engineering and a strong focus on the user experience.
+Building **responsive web applications, thoughtful product interfaces, and practical AI-powered systems** with a focus on usability, maintainability, and real-world problems.
 
 <br>
 
 <a href="mailto:askeeofficial2001@gmail.com">
-  <img src="https://img.shields.io/badge/Email-08CB00?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Mohammed Askee">
+  <img src="./assets/icons/email.png" width="32" height="32" alt="Email">
 </a>
+&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/mohammedaskee">
-  <img src="https://img.shields.io/badge/LinkedIn-08CB00?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile">
+  <img src="./assets/icons/linkedin.png" width="32" height="32" alt="LinkedIn">
 </a>
+&nbsp;&nbsp;
 <a href="https://mohammedaskee2.wordpress.com">
-  <img src="https://img.shields.io/badge/Portfolio-08CB00?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio">
+  <img src="./assets/icons/portfolio.png" width="32" height="32" alt="Portfolio">
 </a>
+&nbsp;&nbsp;
 <a href="https://github.com/MohammedAskee">
-  <img src="https://img.shields.io/badge/GitHub-08CB00?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile">
+  <img src="./assets/icons/github.png" width="32" height="32" alt="GitHub">
 </a>
 
 <br><br>
 
-<img src="https://komarev.com/ghpvc/?username=MohammedAskee&label=Profile%20views&color=1F7D53&style=flat" alt="Profile views">
-&nbsp;
-<img src="https://img.shields.io/github/followers/MohammedAskee?label=Followers&style=flat&color=1F7D53" alt="GitHub followers">
+<img
+  src="https://komarev.com/ghpvc/?username=MohammedAskee&label=Profile%20Views&color=1F7D53&style=flat"
+  alt="Profile views"
+/>
 
 </div>
 
@@ -33,42 +37,52 @@ I build **responsive web applications, thoughtful product interfaces, and practi
 
 ## About me
 
-I'm a **Computer Science graduate** with hands-on experience across **front-end development, full-stack engineering, UI/UX design, machine learning, and network engineering**.
+I'm a **Computer Science graduate** with practical experience across **full-stack development, front-end engineering, UI/UX design, machine learning, and networking**.
 
-I enjoy working across the product lifecycle — from understanding a problem and designing the interface to building the application, connecting APIs, and refining the final experience.
+I enjoy taking a project from an initial idea to something people can actually use — understanding the problem, designing the experience, building the system, and refining the details.
 
-**Currently focused on:** strengthening full-stack development, building polished product experiences, and exploring practical AI-powered applications.
+My current direction is centered around:
+
+- Building stronger **full-stack applications**
+- Creating more polished **product experiences**
+- Exploring practical **AI-powered applications**
+- Writing software that is maintainable rather than merely functional
 
 ---
 
-## What I build
+## What I work on
 
 <table>
 <tr>
+
 <td width="50%" valign="top">
 
 ### Web & Full-Stack
 
-Responsive interfaces, REST APIs, authentication, databases, and deployment-ready applications.
+Responsive web applications, REST APIs, authentication, databases, state management, and deployment.
 
 </td>
+
 <td width="50%" valign="top">
 
 ### UI/UX & Product Design
 
-Wireframes, prototypes, responsive layouts, design systems, and user-centered product decisions.
+Wireframes, prototypes, responsive layouts, interaction design, and user-centered product decisions.
 
 </td>
+
 </tr>
 
 <tr>
+
 <td width="50%" valign="top">
 
 ### AI & Machine Learning
 
-Practical ML pipelines, recommendation systems, AI-assisted applications, and workflow automation.
+Recommendation systems, ML pipelines, AI-assisted applications, prompt-based workflows, and applied experimentation.
 
 </td>
+
 <td width="50%" valign="top">
 
 ### Systems & Networking
@@ -76,34 +90,49 @@ Practical ML pipelines, recommendation systems, AI-assisted applications, and wo
 Networking fundamentals, data-center operations, monitoring, and security-oriented engineering.
 
 </td>
+
 </tr>
 </table>
 
 ---
 
-## Featured work
+# Featured work
 
-### 🌱 [AgriSmartPredict](https://github.com/MohammedAskee/AgriSmartPredict)
+### 🌱 AgriSmartPredict
 
 **Machine-learning crop recommendation system**
 
-Recommends suitable crops using **soil nutrients, rainfall, temperature, and humidity**. The evaluated Random Forest model achieved approximately **92% prediction accuracy**.
+Recommends suitable crops from:
+
+`Soil nutrients` · `Rainfall` · `Temperature` · `Humidity`
+
+The evaluated Random Forest model achieved approximately **92% prediction accuracy**.
+
+**Stack**
 
 `Python` `scikit-learn` `pandas` `NumPy` `Random Forest`
 
-**[View repository →](https://github.com/MohammedAskee/AgriSmartPredict)**
+<a href="https://github.com/MohammedAskee/AgriSmartPredict">
+  View repository →
+</a>
 
 ---
 
-### 🏃 [AthletiQ — Fitness Coach](https://github.com/MohammedAskee/AthletiQ-Fitness-Coach)
+### 🏃 AthletiQ — Fitness Coach
 
 **AI-powered conversational fitness experience**
 
-A conversational assistant for personalized workout guidance, nutrition tips, and feedback. The workflow is composed in Langflow using modular blocks and custom prompts.
+A conversational fitness assistant providing personalized workout guidance, nutrition suggestions, and feedback.
+
+The workflow is composed in Langflow using modular blocks and custom prompts.
+
+**Stack**
 
 `Langflow` `AI Workflows` `Prompt Design`
 
-**[View repository →](https://github.com/MohammedAskee/AthletiQ-Fitness-Coach)**
+<a href="https://github.com/MohammedAskee/AthletiQ-Fitness-Coach">
+  View repository →
+</a>
 
 ---
 
@@ -113,68 +142,84 @@ A conversational assistant for personalized workout guidance, nutrition tips, an
 
 A lightweight threat-detection system combining **Wazuh correlation rules** with **Isolation Forest anomaly detection**, supported by dashboards and alert workflows.
 
+**Stack**
+
 `Wazuh` `Python` `Isolation Forest` `Security Monitoring`
 
-> This project represents my final-year security work and demonstrates my interest in combining conventional detection rules with practical machine learning.
+This project represents my final-year work combining conventional detection techniques with practical machine learning.
 
 ---
 
-## Technology stack
+# Technology stack
 
 <div align="center">
 
 ### Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=js,python,html,css" alt="JavaScript, Python, HTML and CSS">
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/SQL-1F7D53?style=flat-square&logo=mysql&logoColor=white" alt="SQL">
+  <img src="./assets/tech/javascript.png" width="48" alt="JavaScript">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/python.png" width="48" alt="Python">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/html.png" width="48" alt="HTML5">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/css.png" width="48" alt="CSS3">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/sql.png" width="48" alt="SQL">
 </p>
 
 ### Frontend & Design
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,vite,tailwind,bootstrap,figma" alt="React, Vite, Tailwind CSS, Bootstrap and Figma">
+  <img src="./assets/tech/react.png" width="48" alt="React">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/vite.png" width="48" alt="Vite">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/tailwind.png" width="48" alt="Tailwind CSS">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/bootstrap.png" width="48" alt="Bootstrap">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/figma.png" width="48" alt="Figma">
 </p>
 
-### Backend, Databases & AI
+### Backend & Databases
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,flask,firebase,mongodb,mysql" alt="Node.js, Express, Flask, Firebase, MongoDB and MySQL">
+  <img src="./assets/tech/nodejs.png" width="48" alt="Node.js">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/express.png" width="48" alt="Express.js">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/flask.png" width="48" alt="Flask">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/firebase.png" width="48" alt="Firebase">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/mongodb.png" width="48" alt="MongoDB">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/mysql.png" width="48" alt="MySQL">
 </p>
 
-<p>
-  <img src="https://skillicons.dev/icons?i=sklearn" alt="scikit-learn">
-</p>
-
-### Tools & Platforms
+### Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,postman,vscode,vercel" alt="Git, GitHub, Postman, Visual Studio Code and Vercel">
-</p>
-
-<p>
-  <code>Langflow</code>
-  ·
-  <code>REST APIs</code>
-  ·
-  <code>UI/UX</code>
-  ·
-  <code>Machine Learning</code>
+  <img src="./assets/tech/git.png" width="48" alt="Git">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/github.png" width="48" alt="GitHub">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/postman.png" width="48" alt="Postman">
+  &nbsp;&nbsp;
+  <img src="./assets/tech/vscode.png" width="48" alt="Visual Studio Code">
 </p>
 
 </div>
 
 ---
 
-## Experience
+# Experience
 
 ### Arch Technologies
 **Machine Learning / Software Development Internship**
 
-Built and evaluated the **AgriSmartPredict** machine-learning pipeline, working through data preparation, feature handling, model training, evaluation, and application-oriented output.
+Developed and evaluated the **AgriSmartPredict** machine-learning pipeline, working through data preparation, feature handling, model training, evaluation, and application-oriented output.
 
 ### Codsoft
 **Front-End Development / UI/UX Internship**
@@ -188,98 +233,127 @@ Gained practical exposure to data-center infrastructure, networking operations, 
 
 ---
 
-## GitHub at a glance
+## GitHub activity
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./images/userstats-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./images/userstats-light.svg">
-  <img src="./images/userstats-light.svg" alt="Mohammed Askee GitHub statistics" width="760">
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./assets/github/stats-dark.png"
+  >
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./assets/github/stats-light.png"
+  >
+  <img
+    src="./assets/github/stats-light.png"
+    width="760"
+    alt="Mohammed Askee GitHub statistics"
+  >
+</picture>
+
+<br><br>
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./assets/github/snake-dark.svg"
+  >
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./assets/github/snake-light.svg"
+  >
+  <img
+    src="./assets/github/snake-light.svg"
+    width="900"
+    alt="Animated snake following Mohammed Askee's GitHub contribution activity"
+  >
 </picture>
 
 </div>
 
 <p align="center">
-  <sub>Automatically generated from GitHub activity and updated by GitHub Actions.</sub>
-</p>
-
----
-
-## Contribution activity
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://ghchart.rshah.org/08CB00/MohammedAskee">
-  <source media="(prefers-color-scheme: light)" srcset="https://ghchart.rshah.org/1F7D53/MohammedAskee">
-  <img src="https://ghchart.rshah.org/1F7D53/MohammedAskee" alt="Mohammed Askee GitHub contribution calendar" width="760">
-</picture>
-
-</div>
-
-<p align="center">
-  <a href="https://github.com/MohammedAskee?tab=repositories">
-    Explore my repositories →
+  <a href="https://github.com/MohammedAskee?tab=overview">
+    View my GitHub activity →
   </a>
 </p>
 
 ---
 
-## Currently building
+# Currently building
 
-> **Now:** _Replace this line with the project you're actively building and the problem it solves._
->
-> **Next:** _Replace this line with the skill, technology, or product idea you're planning to explore._
+> **Now:** _Add the project you are currently building and the problem it solves._
+
+> **Next:** _Add the technology, feature, or project you plan to explore next._
 
 ---
 
-## My approach
+# My approach
 
 <div align="center">
 
-**Understand the problem**
+### Understand
+**Identify the real problem**
 
 ↓  
 
-**Design the experience**
+### Design
+**Shape the user experience**
 
-↓
+↓  
 
-**Build the system**
+### Build
+**Develop the system**
 
-↓
+↓  
 
-**Test & refine**
+### Refine
+**Test, measure & improve**
 
-↓
+↓  
 
-**Ship something useful**
+### Ship
+**Deliver something useful**
 
 </div>
 
-I care about the connection between **good engineering and good product design**.
+I care about the relationship between **engineering quality and product quality**.
 
-The goal is not simply to make software work — it is to make software that people can understand, use, and trust.
+Good software should not only work.
+
+It should be understandable, maintainable, accessible, and useful to the people who rely on it.
 
 ---
 
-## Let's build something useful
+# Let's build something useful
 
-If you're hiring, collaborating, or working on a product that could benefit from a developer who enjoys both **engineering and product thinking**, I'd be glad to connect.
+If you're hiring, collaborating, or working on a product that could benefit from someone who enjoys both **engineering and product thinking**, I'd be glad to connect.
 
 <div align="center">
 
 <a href="mailto:askeeofficial2001@gmail.com">
-  <img src="https://img.shields.io/badge/Start%20a%20conversation-08CB00?style=for-the-badge&logo=gmail&logoColor=white" alt="Start a conversation by email">
+  <img
+    src="./assets/icons/email.png"
+    width="30"
+    alt="Email"
+  >
 </a>
 
+&nbsp;&nbsp;&nbsp;
+
 <a href="https://www.linkedin.com/in/mohammedaskee">
-  <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-1F7D53?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn">
+  <img
+    src="./assets/icons/linkedin.png"
+    width="30"
+    alt="LinkedIn"
+  >
 </a>
 
 <br><br>
 
-<sub>Useful software should feel as good as it works.</sub>
+<sub>
+  Engineering with purpose · Designing with people in mind
+</sub>
 
 </div>
