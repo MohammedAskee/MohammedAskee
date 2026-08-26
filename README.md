@@ -34,6 +34,8 @@ I'm a Computer Science graduate with hands-on experience across front-end develo
 
 ### [AgriSmartPredict](https://github.com/MohammedAskee/AgriSmartPredict)
 
+<img src="./assets/agrismartpredict.svg" alt="AgriSmartPredict visual showing agricultural data flowing into a crop recommendation" />
+
 **Machine learning crop recommendation system**
 
 Recommends suitable crops from soil nutrients, rainfall, temperature, and humidity using a Random Forest model. The evaluated model achieved **92% prediction accuracy**.
@@ -42,6 +44,8 @@ Recommends suitable crops from soil nutrients, rainfall, temperature, and humidi
 
 ### [AthletiQ](https://github.com/MohammedAskee/AthletiQ-Fitness-Coach)
 
+<img src="./assets/athletiq.svg" alt="AthletiQ visual showing an AI fitness conversation and personalized workout guidance" />
+
 **AI fitness coach**
 
 An AI-powered conversational experience for personalized workout guidance, nutrition tips, and feedback. The workflow is composed in Langflow with modular blocks and custom prompts.
@@ -49,6 +53,8 @@ An AI-powered conversational experience for personalized workout guidance, nutri
 `Langflow` · `AI workflows` · `Prompt design`
 
 ### Lightweight Open-Source SIEM
+
+<img src="./assets/siem.svg" alt="Lightweight SIEM visual showing endpoint events, anomaly detection, and alerts" />
 
 **Final-year endpoint security project**
 
@@ -85,23 +91,6 @@ I am strengthening my full-stack foundations, building more polished product exp
 ## GitHub activity
 
 <div align="center">
-  <a href="https://github.com/MohammedAskee" aria-label="View Mohammed Askee's GitHub profile">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=MohammedAskee&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github&amp;theme=transparent&amp;title_color=08CB00&amp;icon_color=08CB00&amp;text_color=C9D1D9" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=MohammedAskee&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github&amp;theme=transparent&amp;title_color=1F7D53&amp;icon_color=1F7D53&amp;text_color=24292F" />
-      <img height="170" src="https://github-readme-stats.vercel.app/api?username=MohammedAskee&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github&amp;theme=transparent&amp;title_color=1F7D53&amp;icon_color=1F7D53&amp;text_color=24292F" alt="Live GitHub statistics for Mohammed Askee" />
-    </picture>
-  </a>
-  <a href="https://github.com/MohammedAskee?tab=repositories" aria-label="View Mohammed Askee's repositories and languages">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedAskee&amp;layout=compact&amp;hide_border=true&amp;langs_count=8&amp;theme=transparent&amp;title_color=08CB00&amp;text_color=C9D1D9" />
-      <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedAskee&amp;layout=compact&amp;hide_border=true&amp;langs_count=8&amp;theme=transparent&amp;title_color=1F7D53&amp;text_color=24292F" />
-      <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MohammedAskee&amp;layout=compact&amp;hide_border=true&amp;langs_count=8&amp;theme=transparent&amp;title_color=1F7D53&amp;text_color=24292F" alt="Most-used public repository languages for Mohammed Askee" />
-    </picture>
-  </a>
-</div>
-
-<div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MohammedAskee/MohammedAskee/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MohammedAskee/MohammedAskee/output/github-contribution-grid-snake.svg" />
@@ -109,7 +98,7 @@ I am strengthening my full-stack foundations, building more polished product exp
   </picture>
 </div>
 
-> These cards use live public GitHub data. If a third-party image service is unavailable, the profile and repository links above remain fully usable.
+The contribution animation is rebuilt daily from public GitHub activity. You can always view the live contribution graph and repositories directly on [my GitHub profile](https://github.com/MohammedAskee).
 
 ## Let's build something useful
 
