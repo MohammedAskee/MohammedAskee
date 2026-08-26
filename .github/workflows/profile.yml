@@ -1,0 +1,68 @@
+name: Update GitHub Profile
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+
+  generate:
+
+    name: Generate profile assets
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pillow
+
+      - name: Generate GitHub statistics
+        env:
+          GITHUB_USERNAME: MohammedAskee
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/generate_stats.py
+
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: MohammedAskee
+
+          outputs: |
+            assets/github/snake-light.svg?color_snake=#1F7D53&color_dots=#E8F3ED,#B7E5C8,#69C58A,#2E9B70,#1F7D53
+            assets/github/snake-dark.svg?color_snake=#08CB00&color_dots=#17321F,#28633A,#3E984F,#08CB00,#63FF5D
+
+      - name: Check generated assets
+        run: |
+          echo "Generated files:"
+          find assets/github -type f -maxdepth 1 -print
+
+      - name: Commit updated assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add assets/github/
+
+          if git diff --cached --quiet; then
+            echo "No changes detected."
+          else
+            git commit -m "chore: update GitHub profile"
+            git push
+          fi
