@@ -11,15 +11,15 @@ Building **responsive web applications, thoughtful product interfaces, and pract
 <a href="mailto:askeeofficial2001@gmail.com">
   <img src="./assets/icons/email.png" width="32" height="32" alt="Email">
 </a>
-&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/mohammedaskee">
   <img src="./assets/icons/linkedin.png" width="32" height="32" alt="LinkedIn">
 </a>
-&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 <a href="https://mohammedaskee2.wordpress.com">
   <img src="./assets/icons/portfolio.png" width="32" height="32" alt="Portfolio">
 </a>
-&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 <a href="https://github.com/MohammedAskee">
   <img src="./assets/icons/github.png" width="32" height="32" alt="GitHub">
 </a>
@@ -41,16 +41,16 @@ I'm a **Computer Science graduate** with practical experience across **full-stac
 
 I enjoy taking a project from an initial idea to something people can actually use — understanding the problem, designing the experience, building the system, and refining the details.
 
-My current direction is centered around:
+### Current focus
 
 - Building stronger **full-stack applications**
-- Creating more polished **product experiences**
+- Creating polished **product experiences**
 - Exploring practical **AI-powered applications**
 - Writing software that is maintainable rather than merely functional
 
 ---
 
-## What I work on
+## What I build
 
 <table>
 <tr>
@@ -102,7 +102,7 @@ Networking fundamentals, data-center operations, monitoring, and security-orient
 
 **Machine-learning crop recommendation system**
 
-Recommends suitable crops from:
+Recommends suitable crops using:
 
 `Soil nutrients` · `Rainfall` · `Temperature` · `Humidity`
 
@@ -157,57 +157,57 @@ This project represents my final-year work combining conventional detection tech
 ### Languages
 
 <p>
-  <img src="./assets/tech/javascript.png" width="48" alt="JavaScript">
+  <img src="./assets/tech/javascript.png" width="46" alt="JavaScript">
   &nbsp;&nbsp;
-  <img src="./assets/tech/python.png" width="48" alt="Python">
+  <img src="./assets/tech/python.png" width="46" alt="Python">
   &nbsp;&nbsp;
-  <img src="./assets/tech/html.png" width="48" alt="HTML5">
+  <img src="./assets/tech/html.png" width="46" alt="HTML5">
   &nbsp;&nbsp;
-  <img src="./assets/tech/css.png" width="48" alt="CSS3">
+  <img src="./assets/tech/css.png" width="46" alt="CSS3">
   &nbsp;&nbsp;
-  <img src="./assets/tech/sql.png" width="48" alt="SQL">
+  <img src="./assets/tech/sql.png" width="46" alt="SQL">
 </p>
 
 ### Frontend & Design
 
 <p>
-  <img src="./assets/tech/react.png" width="48" alt="React">
+  <img src="./assets/tech/react.png" width="46" alt="React">
   &nbsp;&nbsp;
-  <img src="./assets/tech/vite.png" width="48" alt="Vite">
+  <img src="./assets/tech/vite.png" width="46" alt="Vite">
   &nbsp;&nbsp;
-  <img src="./assets/tech/tailwind.png" width="48" alt="Tailwind CSS">
+  <img src="./assets/tech/tailwind.png" width="46" alt="Tailwind CSS">
   &nbsp;&nbsp;
-  <img src="./assets/tech/bootstrap.png" width="48" alt="Bootstrap">
+  <img src="./assets/tech/bootstrap.png" width="46" alt="Bootstrap">
   &nbsp;&nbsp;
-  <img src="./assets/tech/figma.png" width="48" alt="Figma">
+  <img src="./assets/tech/figma.png" width="46" alt="Figma">
 </p>
 
 ### Backend & Databases
 
 <p>
-  <img src="./assets/tech/nodejs.png" width="48" alt="Node.js">
+  <img src="./assets/tech/nodejs.png" width="46" alt="Node.js">
   &nbsp;&nbsp;
-  <img src="./assets/tech/express.png" width="48" alt="Express.js">
+  <img src="./assets/tech/express.png" width="46" alt="Express.js">
   &nbsp;&nbsp;
-  <img src="./assets/tech/flask.png" width="48" alt="Flask">
+  <img src="./assets/tech/flask.png" width="46" alt="Flask">
   &nbsp;&nbsp;
-  <img src="./assets/tech/firebase.png" width="48" alt="Firebase">
+  <img src="./assets/tech/firebase.png" width="46" alt="Firebase">
   &nbsp;&nbsp;
-  <img src="./assets/tech/mongodb.png" width="48" alt="MongoDB">
+  <img src="./assets/tech/mongodb.png" width="46" alt="MongoDB">
   &nbsp;&nbsp;
-  <img src="./assets/tech/mysql.png" width="48" alt="MySQL">
+  <img src="./assets/tech/mysql.png" width="46" alt="MySQL">
 </p>
 
 ### Tools
 
 <p>
-  <img src="./assets/tech/git.png" width="48" alt="Git">
+  <img src="./assets/tech/git.png" width="46" alt="Git">
   &nbsp;&nbsp;
-  <img src="./assets/tech/github.png" width="48" alt="GitHub">
+  <img src="./assets/tech/github.png" width="46" alt="GitHub">
   &nbsp;&nbsp;
-  <img src="./assets/tech/postman.png" width="48" alt="Postman">
+  <img src="./assets/tech/postman.png" width="46" alt="Postman">
   &nbsp;&nbsp;
-  <img src="./assets/tech/vscode.png" width="48" alt="Visual Studio Code">
+  <img src="./assets/tech/vscode.png" width="46" alt="Visual Studio Code">
 </p>
 
 </div>
@@ -233,7 +233,7 @@ Gained practical exposure to data-center infrastructure, networking operations, 
 
 ---
 
-## GitHub activity
+# GitHub activity
 
 <div align="center">
 
@@ -267,7 +267,7 @@ Gained practical exposure to data-center infrastructure, networking operations, 
   <img
     src="./assets/github/snake-light.svg"
     width="900"
-    alt="Animated snake following Mohammed Askee's GitHub contribution activity"
+    alt="GitHub contribution snake animation"
   >
 </picture>
 
@@ -283,7 +283,7 @@ Gained practical exposure to data-center infrastructure, networking operations, 
 
 # Currently building
 
-> **Now:** _Add the project you are currently building and the problem it solves._
+> **Now:** _Add the project you're currently building and the problem it solves._
 
 > **Next:** _Add the technology, feature, or project you plan to explore next._
 
@@ -293,28 +293,33 @@ Gained practical exposure to data-center infrastructure, networking operations, 
 
 <div align="center">
 
-### Understand
-**Identify the real problem**
+**Understand**
 
-↓  
+Identify the real problem
 
-### Design
-**Shape the user experience**
+↓
 
-↓  
+**Design**
 
-### Build
-**Develop the system**
+Shape the user experience
 
-↓  
+↓
 
-### Refine
-**Test, measure & improve**
+**Build**
 
-↓  
+Develop the system
 
-### Ship
-**Deliver something useful**
+↓
+
+**Refine**
+
+Test, measure & improve
+
+↓
+
+**Ship**
+
+Deliver something useful
 
 </div>
 
@@ -333,21 +338,13 @@ If you're hiring, collaborating, or working on a product that could benefit from
 <div align="center">
 
 <a href="mailto:askeeofficial2001@gmail.com">
-  <img
-    src="./assets/icons/email.png"
-    width="30"
-    alt="Email"
-  >
+  <img src="./assets/icons/email.png" width="30" alt="Email">
 </a>
 
 &nbsp;&nbsp;&nbsp;
 
 <a href="https://www.linkedin.com/in/mohammedaskee">
-  <img
-    src="./assets/icons/linkedin.png"
-    width="30"
-    alt="LinkedIn"
-  >
+  <img src="./assets/icons/linkedin.png" width="30" alt="LinkedIn">
 </a>
 
 <br><br>
